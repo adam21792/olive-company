@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olive Grove - Cart</title>
+    <link rel="stylesheet" href="/style/styles.css">
+    
+
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <img src="/assets/images/home imgs/logo.png" class="logo-img" alt="Logo">
+                <h1>Olive Grove</h1>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul>
+                <li><a href="/index.html" data-page="home">Home</a></li>
+                <li><a href="/assets/stock.html" data-page="olive-oil">Cooking Oil</a></li>
+                <li><a href="/assets/olive.html" data-page="olive">Fresh Olive</a></li>
+                <li><a href="/assets/cosmetics.html" data-page="olive">Body Care</a></li>
+                <li><a href="/assets/cart.html" data-page="cart">Cart</a></li>
+                <li><a href="/assets/signup.html" data-page="signin">Sign In/Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="cart-section">
+        <div class="cart-container">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-items"></div>
+            <div class="cart-summary">
+              <p>Total: $<span id="cart-total">0.00</span></p>
+              <button class="checkout-btn">Checkout</button>
+            </div>
+          </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Olive Grove. All rights reserved.</p>
+    </footer>
+
+    <script src="/scripts/JS.js"></script>
+    <script src="/scripts/carousel.js"></script>
+    <script src="/scripts/nav.js"></script>
+    <script src="/scripts/cart.js"></script>
+
+    <button id="scrollToTop" class="scroll-to-top" title="Go to top">↑</button>
+
+</body>
+</html>
