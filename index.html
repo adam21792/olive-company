@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olive Grove - Home</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="/style/navbar.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">
+                <img src="/assets/images/home imgs/logo.png" class="logo-img" alt="Logo">
+                <h1>Olive Grove</h1>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul>
+                <li><a href="/index.html" data-page="home">Home</a></li>
+                <li><a href="/assets/stock.html" data-page="olive-oil">Cooking Oil</a></li>
+                <li><a href="/assets/olive.html" data-page="olive">Fresh Olive</a></li>
+                <li><a href="/assets/cosmetics.html" data-page="olive">Body Care</a></li>
+                <li><a href="/assets/cart.html" data-page="cart">Cart</a></li>
+                <li><a href="/assets/signup.html" data-page="signin">Sign In/Up</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <img class="mySlides" src="/assets/images/home imgs/frontdesk.jpeg" alt="Bottle of Extra Virgin Olive Oil" class="hero-image">
+            <img class="mySlides" src="/assets/Images/home imgs/home.jpeg" alt="Fresh Olive Oil Bottles" class="hero-image">
+            <img class="mySlides" src="/assets/Images/home imgs/meeting.jpeg" alt="Premium Olive Oil Packaging" class="hero-image">
+        </section>
+        <section class="welcome">
+            <h2>Welcome to Olive Grove!</h2>
+            <p>Discover the finest olive oils and natural products for your well-being.</p>
+        </section>
+        <!-- About Us Section -->
+        <section class="about-company">
+            <h2>About Us</h2>
+            <p>
+                At <strong>Olive Grove</strong>, we are passionate about bringing you the purest, most authentic olive-based products.
+                From our lush olive groves to your home, every bottle and product is crafted with love, care, and a commitment to quality.
+            </p>
+        </section>
+
+        <!-- Mission & Vision Section -->
+        <section class="mission-vision">
+            <div class="mission">
+                <h3>Our Mission</h3>
+                <p>
+                    To provide premium-quality olive oils and natural products that promote a healthy lifestyle while supporting sustainable farming and empowering local communities.
+                </p>
+            </div>
+            <div class="vision">
+                <h3>Our Vision</h3>
+                <p>
+                    To become a global leader in olive-based products by prioritizing quality, innovation, and ethical practices, ensuring well-being for all.
+                </p>
+            </div>
+            <div class="message">
+                <h3>Our Message</h3>
+                <p>
+                    "Nature's gift is our promise to you." We believe in the power of simplicity and the incredible benefits of olives.
+                    Join us on a journey to celebrate health, beauty, and sustainability.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us!</p>
+            <ul>
+                <li>Email: <a href="mailto:support@olivegrove.com">support@olivegrove.com</a></li>
+                <li>Phone: <a href="tel:+201141100641">+20 (1141) 100-641</a></li>
+                <li>Address: 123 Olive Lane, Grove City, OL 56789</li>
+            </ul>
+            <button id="contact-btn">Show Map</button>
+            <div id="map-container" class="hidden">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=PLACEHOLDER_LINK"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Olive Grove. All rights reserved.</p>
+    </footer>
+
+    <script src="/scripts/JS.js"></script>
+    <script src="/scripts/carousel.js"></script>
+    <script src="/scripts/nav.js"></script>
+
+    <button id="scrollToTop" class="scroll-to-top" title="Go to top">↑</button>
+</body>
+</html>
